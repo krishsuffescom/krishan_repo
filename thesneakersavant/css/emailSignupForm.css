@@ -1,0 +1,264 @@
+
+/*START EmailEntryForm CSS*/
+* { 
+    padding:0;
+    margin:0;
+}
+ 
+body {
+    font-size:18px;
+    font-family: 'Roboto', sans-serif;   
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 span.upper {
+    font-size: 60px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.emailSignupHeader {
+	background: black;
+	color: white;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+.emailSignupHeader img#banner {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+#socialMediaIconContainer ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+#socialMediaIconContainer ul li {
+    display: inline-block;
+    background-color: black;
+}
+
+#socialMediaIconContainer ul li a img {
+    width: 32px;
+    height: 32px;
+}
+
+#banner_container {
+    color: white;
+    background: black;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    display: table;
+    height: 150px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#banner_container span.hook{
+    font-size: 22px;
+}
+
+i.glyphicon.white {
+    color: white;
+}
+
+i.glyphicon.silver {
+    color: silver;
+}
+
+i.glyphicon.gold {
+    color: gold;
+}
+
+.banner h2 {
+    margin-bottom: 20px;
+}
+
+#process_container {
+    background: white;
+    color: black;
+}
+
+#product_container.pad-section {
+    padding-top: 5px;
+}
+
+#services_container {
+    text-align: center;
+}
+
+.panel, .panel-heading {
+    border-radius: 0px;
+}
+
+.panel-default>.panel-heading {
+    background-color: white;
+    border: 0px solid white;
+}
+
+.panel-default {
+    border-color: black;
+}
+
+.text-vcenter {
+    display: block;
+}
+
+.text_container {
+    display: inline-block;
+}
+
+.text_container .col-sm-9 {
+    border-left: 3px solid black;
+}
+
+.images_container {
+    background: #f6f6f6;
+    padding: 20px;
+}
+
+img#logoType {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 375px;
+}
+
+img.medals {
+    height: 70px;
+    width: 70px; 
+    margin: 0 5px 5px 5px;
+}
+
+.col-sm-4 img {
+    max-height: 130px;
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.col-sm-4 img#shoes {
+    max-width: 300px;
+}
+
+.col-sm-12 img {
+    width: 100%;
+}
+
+.emailSignupForm {
+    background: black;
+    color: white;
+}
+
+#newsletter-signup {
+    background: black;
+}
+
+#newsletter-signup label {
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+}
+
+fieldset {
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    font-size: 17px;  
+    text-align: center;   
+    background: black;
+    padding: 15px 15px;
+    color: white;
+}
+ 
+form {  
+    padding:10px;
+   /* -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 1);
+    box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 1);*/
+    background:black;
+}
+ 
+input {
+    border:none;
+    background-color:none;  
+}
+
+#signup-email {
+    border:1px solid #999999;
+    color:#9E9E9E;
+    padding:5px;
+    width: auto;
+    min-width: 150px;   
+}
+ 
+#signup-email:focus {
+    border-color:#9FCBFF;
+    background-color:#DFEEFF;
+    background-image:none;
+    color:#000;
+}
+ 
+#signup-button {
+    background-color:#fff;
+    color:#000;
+    padding:5px; 
+    margin: 5px;
+}
+ 
+#signup-button:hover {
+    cursor:pointer;
+    color:#E55741;
+}
+ 
+#signup-response {
+    display:inline;
+    margin-left:4px;
+    padding-left:20px;
+}
+ 
+.response-waiting {
+    background:url(../images/loading.gif) left top no-repeat;
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+}
+ 
+/*.response-success {
+   background:url(../images/tick.png) left top no-repeat;
+   height: 20px;
+   width: 20px;
+   background-size: contain;
+}
+ 
+.response-error {
+   background:url(../images/cross.png) left top no-repeat;
+   height: 20px;
+   width: 20px;
+   background-size: contain;   
+}*/
+
+#bizDetails #PageContent img {
+    padding-right: 10px; 
+    float: left;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 756px)  {
+  .text_container .col-sm-9 {
+    border-left: 0px solid white;
+  }
+
+  p {
+    text-align: center;
+    }
+}

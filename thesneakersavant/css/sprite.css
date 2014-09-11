@@ -1,0 +1,148 @@
+.s-32-dropbox, .s-32-facebook, .s-32-flickr, .s-32-googleplus, .s-32-instagram, .s-32-linkedin, .s-32-paypal, .s-32-pinterest, .s-32-skype, .s-32-twitter, .s-32-wordpress, .s-32-youtube, .s-32-rss, .s-32-tumblr, .s-32-ebay, .s-32-email, .cross-copy, .tick-copy, .TSSFull, .TSSFullWhite, .TSSkey, .TSSkeyWhite, .TSSlogoCircle-32, .TSSlogoCircleWhite-32{
+	background: url(../images/sprite.png) no-repeat;
+}
+
+.s-32-dropbox{
+	background-position: -468px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-facebook{
+	background-position: -16px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-flickr{
+	background-position: -266px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-googleplus{
+	background-position: -217px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-instagram{
+	background-position: -166px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-linkedin{
+	background-position: -367px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-paypal{
+	background-position: -416px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-pinterest{
+	background-position: -516px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-skype{
+	background-position: -566px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-twitter{
+	background-position: -66px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-wordpress{
+	background-position: -117px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-youtube{
+	background-position: -315px -16px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-rss{
+	background-position: -16px -66px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-tumblr{
+	background-position: -66px -66px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-ebay{
+	background-position: -117px -66px ;
+	width: 32px;
+	height: 32px;
+}
+
+.s-32-email{
+	background-position: -166px -66px ;
+	width: 32px;
+	height: 32px;
+}
+
+.response-error{
+	background-position: -225px -74px ;
+	width: 25px;
+	height: 25px;
+}
+
+.response-success{
+	background-position: -272px -74px ;
+	width: 25px;
+	height: 25px;
+}
+
+.TSSFull{
+	background-position: 0 -150px ;
+	width: 600px;
+	height: 60px;
+}
+
+.TSSFullWhite{
+	background-position: 0 -250px ;
+	width: 600px;
+	height: 60px;
+}
+
+.TSSkey{
+	background-position: -350px -66px ;
+	width: 100px;
+	height: 43px;
+}
+
+.TSSkeyWhite{
+	background-position: -500px -66px ;
+	width: 100px;
+	height: 43px;
+}
+
+.TSSlogoCircle-32{
+	background-position: -16px -401px ;
+	width: 32px;
+	height: 32px;
+}
+
+.TSSlogoCircleWhite-32{
+	background-position: -66px -401px ;
+	width: 32px;
+	height: 32px;
+}
+

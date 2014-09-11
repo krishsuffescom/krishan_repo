@@ -1,0 +1,15 @@
+AuthType none
+Satisfy Any                                                                                                
+RewriteEngine on
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/mapmarki/public_html/thesneakersavant.com/.htpasswd
+require valid-user                      
+RewriteCond %{HTTP_HOST} ^thesneakersavant\.jtplatt\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.thesneakersavant\.jtplatt\.com$
+RewriteRule ^/?$ "http\:\/\/thesneakersavant\.com\/" [R=301,L]
+
+                            
+                            
+                            
+

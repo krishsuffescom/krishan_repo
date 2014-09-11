@@ -1,0 +1,185 @@
+                                                                                                                                /* general styles */
+/*START Index CSS*/
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+hr {
+  border-top: 5px solid #000;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  /*text-shadow: 0px 1px 15px #fff;*/
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.glyphicon {
+  margin: 10px;
+  vertical-align: middle;
+}
+
+/* padded section */
+.pad-section {
+  padding: 25px;
+  display: inline-block;
+}
+.pad-section img {
+  width: 100%;
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 3.0em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.text-vcenter.services {
+  display: block;
+}
+
+/* additional sections */
+#home {
+  background: url(../images/galaxyopac.png) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+}
+
+#services {
+  background-color: #000000;
+  color: #ffffff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+  /*Background Images s/b 2000px wide x 800-1100px*/
+  background: url(../images/sneakersopac.png) repeat fixed;
+  background-repeat:repeat-x;
+  background-repeat:repeat-y;
+  display: table;
+  height: 650px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#information .panel {
+  opacity: 0.85;
+}
+
+#buyNow {
+  height: 20px;
+  width: 100%;
+}
+
+#ourGuarantee {
+  background: black;
+  color: white;
+}
+
+#PageContent img {
+  height: 250px;
+}
+
+.stripe_btns, .paypal_btns, .btc_btns {
+  text-align: center;
+}
+
+.btc_btns {
+  padding-left: 20px;
+}
+
+ul li {
+  text-align: center;
+
+}
+
+.correspondence {
+  text-align: center;
+}
+
+footer {
+  padding: 0px 0px 20px 0px;
+  background: black;
+  color: white;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+.textarea{width:100%; min-height:200px !important;}
+.section-block{margin:20px auto; padding:0 40px;}
+.cont1{float:left; width:65%; margin:15px 0 0 0;}
+.even{background:#f6f6f6;}
+.second-block{border:1px solid #ccc; border-radius:4px;}
+.add-more{float:right;}
+.odd{padding-bottom:40px;}
+
+.pay-now{float:right;}
+/*.odd label{margin-bottom:20px;}*/
+
+.cont2{float:right;}
+.slecet_boxclass{ border: 1px solid #CCC;
+    padding: 5px 6px;
+    border-radius: 4px; box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset; background:#fff; color:#555; font-size:14px;
+    width: 100%;}
+
+@media only screen and (min-width : 320px) and (max-width : 568px)  {
+  .col-xs-6 {
+    width: 100%;
+  }
+.section-block{padding:0 !important;}
+.cont1,.cont2{width:100%; padding:0 10px;}
+  .pad-section {
+    padding: 0px;
+  }
+
+  .emailSignupHeader #socialMediaIconContainer ul {
+    text-align: center;
+  }
+
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+    {padding-left: 5px; padding-right: 5px;} 
+
+}
+/*END Index CSS*/
